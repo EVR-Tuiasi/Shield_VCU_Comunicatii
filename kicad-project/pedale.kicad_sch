@@ -2639,96 +2639,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pedale-lib:Conn_J23"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 7.112 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(color 16 102 33 1)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_J23_1_1"
-				(rectangle
-					(start 0 1.27)
-					(end 6.35 -1.27)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "J23"
-					(at 3.302 -2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(color 16 102 33 1)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "pedale-lib:Conn_alimentare"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2940,10 +2850,10 @@
 		)
 	)
 	(junction
-		(at 52.07 48.26)
+		(at 87.63 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0121aef7-e8ed-406a-a1e7-df89a888cae7")
+		(uuid "2cc09c75-d6af-4512-80f9-a8e6fdd77344")
 	)
 	(no_connect
 		(at 246.38 74.93)
@@ -2954,7 +2864,7 @@
 		(uuid "0546236f-5077-4cf6-ba83-70bc7e24a865")
 	)
 	(no_connect
-		(at 210.82 96.52)
+		(at 71.12 67.31)
 		(uuid "09e0b35e-379d-48de-8421-044917a19dab")
 	)
 	(no_connect
@@ -2978,7 +2888,7 @@
 		(uuid "16608529-edb4-44d3-956c-6ed2135b2b1e")
 	)
 	(no_connect
-		(at 186.69 99.06)
+		(at 46.99 69.85)
 		(uuid "18f39895-84f4-42e9-a5f1-edd81b7b6329")
 	)
 	(no_connect
@@ -3042,7 +2952,7 @@
 		(uuid "474285b1-83e8-46ff-bf85-b44b80fcddb6")
 	)
 	(no_connect
-		(at 210.82 99.06)
+		(at 71.12 69.85)
 		(uuid "4a0c00ee-4cab-458f-bc40-a6fe4a7bfdc5")
 	)
 	(no_connect
@@ -3066,7 +2976,7 @@
 		(uuid "4d4f939f-c434-4d17-9e9e-ba6fd05d98e2")
 	)
 	(no_connect
-		(at 186.69 109.22)
+		(at 46.99 80.01)
 		(uuid "4f8a4e4e-ddcf-4f20-b355-7adbea0176de")
 	)
 	(no_connect
@@ -3076,6 +2986,10 @@
 	(no_connect
 		(at 156.21 101.6)
 		(uuid "5381adb4-95b0-439d-ba8e-2f5109dc09ed")
+	)
+	(no_connect
+		(at 246.38 127)
+		(uuid "55ab52be-6ff9-4104-910b-b127f01527b9")
 	)
 	(no_connect
 		(at 246.38 72.39)
@@ -3110,7 +3024,7 @@
 		(uuid "676a540a-14e1-421f-b5c1-9cd92979aafa")
 	)
 	(no_connect
-		(at 186.69 93.98)
+		(at 46.99 64.77)
 		(uuid "67c98856-99b3-4d15-85f3-3db333d5661f")
 	)
 	(no_connect
@@ -3126,11 +3040,15 @@
 		(uuid "6ff5302c-decb-4ef7-b7f6-a91971049cc6")
 	)
 	(no_connect
+		(at 222.25 100.33)
+		(uuid "70b2a7a2-9a29-42fe-a7b7-416b6851700b")
+	)
+	(no_connect
 		(at 246.38 90.17)
 		(uuid "74ade395-16a9-4aba-a30a-2955419152cd")
 	)
 	(no_connect
-		(at 210.82 109.22)
+		(at 71.12 80.01)
 		(uuid "757fd44f-cfc3-47af-bba9-53fa6ecc96fa")
 	)
 	(no_connect
@@ -3210,7 +3128,7 @@
 		(uuid "a02f4b0c-5949-4240-aef5-417330344bc8")
 	)
 	(no_connect
-		(at 186.69 106.68)
+		(at 46.99 77.47)
 		(uuid "a170c570-1276-4a2a-8c1b-24fc4ac824ef")
 	)
 	(no_connect
@@ -3246,11 +3164,11 @@
 		(uuid "ae489030-3e89-4ba8-bd21-5dbaa864cfb0")
 	)
 	(no_connect
-		(at 186.69 91.44)
+		(at 46.99 62.23)
 		(uuid "b3d3f255-86ce-4052-baf8-939ea93846e3")
 	)
 	(no_connect
-		(at 210.82 101.6)
+		(at 71.12 72.39)
 		(uuid "b5452af7-743f-43a1-94c8-a5c86124e3a3")
 	)
 	(no_connect
@@ -3266,11 +3184,15 @@
 		(uuid "bbc5288f-a230-4b75-9f21-a4a94ccf1dd7")
 	)
 	(no_connect
-		(at 186.69 96.52)
+		(at 46.99 67.31)
 		(uuid "c0779a72-fbbd-4955-9553-cb2c3f0e3c9c")
 	)
 	(no_connect
-		(at 186.69 104.14)
+		(at 186.69 64.77)
+		(uuid "c10dd0a1-3c10-4864-b66d-104dcf847cba")
+	)
+	(no_connect
+		(at 46.99 74.93)
 		(uuid "c90fc217-c441-4104-abeb-dc12d0c44184")
 	)
 	(no_connect
@@ -3278,7 +3200,7 @@
 		(uuid "c9522a52-ede7-431c-b386-a9c1b9ee4592")
 	)
 	(no_connect
-		(at 210.82 93.98)
+		(at 71.12 64.77)
 		(uuid "c9909101-9125-4cd5-95ed-cbf348b0bbd7")
 	)
 	(no_connect
@@ -3314,12 +3236,12 @@
 		(uuid "dab00a0c-024a-4f47-8769-af28b80f0971")
 	)
 	(no_connect
-		(at 210.82 91.44)
-		(uuid "dde3d8cc-e8e8-4e13-82cf-07636f22b8e7")
-	)
-	(no_connect
 		(at 222.25 116.84)
 		(uuid "de4e458f-20e2-44f8-94d5-9bab39325c70")
+	)
+	(no_connect
+		(at 71.12 77.47)
+		(uuid "e05c54f9-e75b-4e7e-9997-0122db70132e")
 	)
 	(no_connect
 		(at 246.38 95.25)
@@ -3342,7 +3264,7 @@
 		(uuid "eeebc429-5909-423a-8ca8-6d8426923397")
 	)
 	(no_connect
-		(at 186.69 101.6)
+		(at 46.99 72.39)
 		(uuid "f0071cf8-8a35-4547-9029-7706695cbb1e")
 	)
 	(no_connect
@@ -3373,6 +3295,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 53.34) (xy 87.63 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f630f09-8357-4f46-8030-5aa3db20e13e")
+	)
+	(wire
+		(pts
 			(xy 163.83 45.72) (xy 166.37 43.18)
 		)
 		(stroke
@@ -3383,7 +3315,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 48.26) (xy 52.07 53.34)
+			(xy 87.63 48.26) (xy 87.63 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3393,13 +3325,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 48.26) (xy 52.07 48.26)
+			(xy 87.63 62.23) (xy 71.12 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3715c10c-9ab6-4f04-84d2-1fce4f3c25bb")
+		(uuid "2fd78f9b-88ae-4087-a6e6-4df0c34e2075")
 	)
 	(wire
 		(pts
@@ -3423,7 +3355,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 53.34) (xy 52.07 53.34)
+			(xy 76.2 53.34) (xy 87.63 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3453,7 +3385,7 @@
 	)
 	(global_label "12V"
 		(shape input)
-		(at 40.64 53.34 180)
+		(at 76.2 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3463,7 +3395,7 @@
 		)
 		(uuid "0acd2dea-145b-4ac9-8329-bda611c3c0b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.1472 53.34 0)
+			(at 69.7072 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,73 +3643,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 210.82 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1aee658b-0e87-452d-b906-149538eeb68d")
-		(property "Reference" "#PWR027"
-			(at 217.17 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 214.63 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bcf8da4b-975a-464c-843e-5495b18743c5")
-		)
-		(instances
-			(project "pedale"
-				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pedale-lib:Conn_J12")
 		(at 241.3 130.81 0)
 		(unit 1)
@@ -3972,7 +3837,7 @@
 	)
 	(symbol
 		(lib_id "pedale-lib:Conn_J13")
-		(at 205.74 105.41 0)
+		(at 66.04 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3981,7 +3846,7 @@
 		(fields_autoplaced yes)
 		(uuid "62c475c6-6a26-410e-915a-a82cc84a8dd2")
 		(property "Reference" "J13"
-			(at 198.628 88.9 0)
+			(at 58.928 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +3856,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 198.755 87.63 0)
+			(at 59.055 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,7 +3864,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical"
-			(at 205.74 105.41 0)
+			(at 66.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,7 +3873,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 105.41 0)
+			(at 66.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4017,7 +3882,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 105.41 0)
+			(at 66.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,140 +4024,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 186.69 64.77 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8360fb52-ae7c-4578-a0cb-cf44c695d3bc")
-		(property "Reference" "#PWR030"
-			(at 180.34 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 182.88 64.7699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91451ce9-f5bc-4cd1-bef2-46fb58e955af")
-		)
-		(instances
-			(project "pedale"
-				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 210.82 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86be3d8c-9d11-431e-ae09-c31a6f0287d9")
-		(property "Reference" "#PWR028"
-			(at 217.17 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 214.63 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b89cc2f7-465f-4a97-a730-64c820327107")
-		)
-		(instances
-			(project "pedale"
-				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pedale-lib:Conn_J15")
 		(at 241.3 101.6 0)
 		(unit 1)
@@ -4416,76 +4147,8 @@
 		)
 	)
 	(symbol
-		(lib_id "pedale-lib:Conn_J23")
-		(at 35.56 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93b103d6-7bf5-4dc2-bbe0-e36edef60c84")
-		(property "Reference" "U9"
-			(at 40.64 38.7349 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 16 102 33 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 40.64 41.2749 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 35.56 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f827e89-b98e-4af3-bcc1-1def197bac33")
-		)
-		(instances
-			(project ""
-				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pedale-lib:Conn_alimentare")
-		(at 53.34 43.18 90)
+		(at 88.9 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4494,7 +4157,7 @@
 		(fields_autoplaced yes)
 		(uuid "b186a927-e001-401b-9571-b1f73d0c7f74")
 		(property "Reference" "U1"
-			(at 53.0379 35.56 0)
+			(at 88.5979 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4505,7 +4168,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 55.5779 35.56 0)
+			(at 91.1379 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4515,7 +4178,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal"
-			(at 53.34 43.18 0)
+			(at 88.9 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4524,7 +4187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 43.18 0)
+			(at 88.9 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4533,7 +4196,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 43.18 0)
+			(at 88.9 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,16 +4221,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 127 90)
+		(at 71.12 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b4635c58-52d4-42d6-9d4d-d36bd6126c0e")
-		(property "Reference" "#PWR031"
-			(at 252.73 127 0)
+		(uuid "b8adf998-f079-469e-b30d-c1dcdd868821")
+		(property "Reference" "#PWR02"
+			(at 77.47 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,16 +4239,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 126.9999 90)
+			(at 76.2 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 127 0)
+			(at 71.12 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,7 +4257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 127 0)
+			(at 71.12 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,7 +4266,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 127 0)
+			(at 71.12 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,12 +4275,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9962a6a-0407-440c-8aee-823540990149")
+			(uuid "cc4214be-8c40-4008-adf2-27472d33279b")
 		)
 		(instances
 			(project "pedale"
 				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
-					(reference "#PWR031")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4737,7 +4400,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 48.26 0)
+		(at 90.17 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4746,7 +4409,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd11c474-5dac-4ba5-a1e0-ab5031630439")
 		(property "Reference" "#PWR01"
-			(at 54.61 54.61 0)
+			(at 90.17 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,7 +4418,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 53.34 0)
+			(at 90.17 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,7 +4427,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 48.26 0)
+			(at 90.17 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4773,7 +4436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 48.26 0)
+			(at 90.17 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4782,7 +4445,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 48.26 0)
+			(at 90.17 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4797,73 +4460,6 @@
 			(project ""
 				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 222.25 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7b62d70-3cb9-4c98-9dab-fe19834d06b4")
-		(property "Reference" "#PWR029"
-			(at 215.9 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 218.44 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b5f2147-93d0-4b56-8dff-a02218d376d6")
-		)
-		(instances
-			(project "pedale"
-				(path "/62a57360-3e57-41ad-98c3-de6f40bd380e"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
